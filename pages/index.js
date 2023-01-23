@@ -202,13 +202,13 @@ const print =()=>{
 
 
       <TemplateData.Provider value={{setHeaderData,setTemplatePropertiesData,setItemTableData,setTotalData}}>
-      <Row style={{height:"850px"}} >
-        <Col span={1}>
+      <Row style={{height:"100%"}} >
+        <Col span={1} style={{height:"100%"}}>
         <div
       
     >
       <Menu
-        style={{backgroundColor:"#3c3c47",color:"white",width: 61,height:700}}
+        style={{backgroundColor:"#3c3c47",color:"white",width: 61,height:644}}
         onClick={getMenuItem}
         defaultSelectedKeys={isKey}
       >
@@ -256,12 +256,12 @@ const print =()=>{
     </div>
         </Col>
          
-        <Col span={8} style={{height:"850px"}} >
+        <Col span={8} style={{height:"100%"}}>
         <Scrollbars
               thumbSize={360}
               renderView={renderView}
               renderThumbVertical={renderThumb}
-              style={{ height: "635px"}}
+              style={{ height: "580px"}}
             >
             
               <Form form={form}  layout="vertical" name="form">
@@ -284,7 +284,7 @@ const print =()=>{
           </Col>
           
           
-        <Col span={15} style={{height:"850px"}}>
+        <Col span={15} style={{height:"100%"}}>
         <Scrollbars
               thumbSize={490}
               renderView={renderView}
