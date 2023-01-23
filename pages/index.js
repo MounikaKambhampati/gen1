@@ -208,7 +208,7 @@ const print =()=>{
       
     >
       <Menu
-        style={{backgroundColor:"#3c3c47",color:"white",width: 61,height:644}}
+        style={{backgroundColor:"#3c3c47",color:"white",width: 61,height:"100vh"}}
         onClick={getMenuItem}
         defaultSelectedKeys={isKey}
       >
@@ -256,12 +256,12 @@ const print =()=>{
     </div>
         </Col>
          
-        <Col span={8} >
+        <Col span={8} style={{height:"100vh"}} >
         <Scrollbars
               thumbSize={360}
               renderView={renderView}
               renderThumbVertical={renderThumb}
-              style={{ height: "580px"}}
+              style={{ height: "90vh"}}
             >
             
               <Form form={form}  layout="vertical" name="form">
@@ -284,13 +284,13 @@ const print =()=>{
           </Col>
           
           
-        <Col span={15}>
+        <Col span={15} style={{height:"100vh"}}>
         <Scrollbars
               thumbSize={490}
               renderView={renderView}
               renderThumbHorizontal={renderThumb}
               renderThumbVertical={renderThumb}
-              style={{ height: "644px" }}
+              style={{ height: "100vh" }}
           >
           
        
