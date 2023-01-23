@@ -256,12 +256,12 @@ const print =()=>{
     </div>
         </Col>
          
-        <Col span={8} >
+        <Col span={8} style={{height:"700px"}} >
         <Scrollbars
               thumbSize={360}
               renderView={renderView}
               renderThumbVertical={renderThumb}
-              style={{ height: "580px"}}
+              style={{ height: "635px"}}
             >
             
               <Form form={form}  layout="vertical" name="form">
@@ -284,7 +284,7 @@ const print =()=>{
           </Col>
           
           
-        <Col span={15}>
+        <Col span={15} style={{height:"700px"}}>
         <Scrollbars
               thumbSize={490}
               renderView={renderView}
