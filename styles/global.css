@@ -1,5 +1,7 @@
 html,
 body {
+  height:100;
+
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -20,6 +22,7 @@ a {
     color-scheme: dark;
   }
   body {
+    height:"100%";
     color: white;
     background: black;
   }
@@ -96,15 +99,17 @@ a {
 
 :where(.css-dev-only-do-not-override-1s3dcof).ant-table-wrapper .ant-table {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: rgba(0, 0, 0, 0.88);
-  font-size: 11px;
-  line-height: 1.5714285714285714;
+  /* margin: 0;
+  padding: 0; */
+  /* color: rgba(0, 0, 0, 0.88);
+  font-size: 11px; */
+  /* line-height: 1.5714285714285714; */
+  height:100%;
   list-style: none;
   font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
   background: #ffffff;
   border-radius: 8px;
+ 
 }
 
 .ant-table-thead > tr > th {
