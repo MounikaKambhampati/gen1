@@ -202,8 +202,8 @@ const print =()=>{
 
 
       <TemplateData.Provider value={{setHeaderData,setTemplatePropertiesData,setItemTableData,setTotalData}}>
-      <Row >
-        <Col span={1} style={{height:"100%"}}>
+      <Row style={{height:"100vh"}}>
+        <Col span={1} style={{height:"100vh"}}>
         <div
       
     >
@@ -256,7 +256,7 @@ const print =()=>{
     </div>
         </Col>
          
-        <Col span={8} style={{height:"100%"}}>
+        <Col span={8} style={{height:"100vh"}}>
         <Scrollbars
               thumbSize={360}
               renderView={renderView}
@@ -284,7 +284,7 @@ const print =()=>{
           </Col>
           
           
-        <Col span={15} style={{height:"100%"}}>
+        <Col span={15} style={{height:"100vh"}}>
         <Scrollbars
               thumbSize={490}
               renderView={renderView}
