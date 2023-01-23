@@ -202,13 +202,13 @@ const print =()=>{
 
 
       <TemplateData.Provider value={{setHeaderData,setTemplatePropertiesData,setItemTableData,setTotalData}}>
-      <Row style={{height:"auto"}} >
+      <Row style={{height:"700px"}} >
         <Col span={1}>
         <div
       
     >
       <Menu
-        style={{backgroundColor:"#3c3c47",color:"white",width: 61,height:644}}
+        style={{backgroundColor:"#3c3c47",color:"white",width: 61,height:700}}
         onClick={getMenuItem}
         defaultSelectedKeys={isKey}
       >
