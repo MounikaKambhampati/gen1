@@ -202,7 +202,7 @@ const print =()=>{
 
 
       <TemplateData.Provider value={{setHeaderData,setTemplatePropertiesData,setItemTableData,setTotalData}}>
-      <Row style={{height:"100%"}} >
+      <Row >
         <Col span={1} style={{height:"100%"}}>
         <div
       
